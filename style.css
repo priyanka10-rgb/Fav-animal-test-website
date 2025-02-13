@@ -1,0 +1,74 @@
+nav {
+  height: 50px;
+  background-color: lightgrey;
+}
+.inline-block {
+  display: inline-block;
+  padding: 5px;
+}
+.landing-page
+{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    background-color: rgb(234, 238, 238);
+    height: 100px;
+}
+
+.pet-details
+{
+    border: 1px solid black;
+    text-align: center;
+}
+.pet-details img{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    
+}
+
+
+.Pet-Status
+{
+    border-top: 1px solid black;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.pet-desc img{
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    float: left;
+    
+}
+
+.pictures-pet
+{
+    margin-top: 80px;
+}
+.pictures-pet h2{
+ text-align: center;
+}
+.dogs
+
+{
+    display: flex;
+    justify-content: space-around;
+}
+.dogs img
+{
+    object-fit: contain;
+    width: 300px;
+}
+
+
+
+h1 {
+ font-family: helvetica, arial, sans-serif;
+}
+.h2 {
+ font-family: helvetica, arial, sans-serif; 
+}
+.h3 {
+  font-family: helvetica, arial, sans-serif;
+}
